@@ -1,0 +1,37 @@
+{
+  "name": "npm-copy-version",
+  "version": "1.0.0",
+  "description": "Copy npm package versions from one package.json file to another",
+  "main": "NpmCopyVersion.js",
+  "bin": "dist/NpmCopyVersion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glenharris/npm-copy-version.git"
+  },
+  "keywords": [
+    "npm",
+    "version",
+    "copy"
+  ],
+  "author": "Glen Harris <glen.harris@middlegable.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glenharris/npm-copy-version/issues"
+  },
+  "homepage": "https://github.com/glenharris/npm-copy-version#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^5.0.5",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^11.9.5",
+    "typescript": "^3.3.3333",
+    "winston": "^3.2.1"
+  }
+}
